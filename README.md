@@ -1,0 +1,1 @@
+# gorevtakip-okul1
