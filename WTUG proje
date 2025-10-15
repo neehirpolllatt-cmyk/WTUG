@@ -1,0 +1,40 @@
+✅ Görev Takip Uygulaması (ToDoApp)
+🎯 Proje Amacı
+
+Bu proje, kullanıcıların günlük işlerini veya yapılacaklar listesini daha düzenli bir şekilde takip edebilmelerini sağlamak amacıyla geliştirilmiş basit bir görev yönetim uygulamasıdır.
+Proje, hem ön uç (frontend) hem de arka uç (backend) geliştirmeye yönelik temel kavramları uygulamalı olarak öğrenmek için tasarlanmıştır.
+
+Kullanıcı, bu uygulama sayesinde görevlerini kolayca:
+
+Ekleyebilir,
+
+Listeleyebilir,
+
+Tamamlandı olarak işaretleyebilir,
+
+Gerekirse silebilir.
+
+Ayrıca proje, ASP.NET Core MVC mimarisinin nasıl çalıştığını, katmanlı mimari yapısını, Entity Framework ile veritabanı işlemlerini ve dinamik sayfa yönetimini öğrenmek için iyi bir örnek niteliğindedir.
+
+🛠️ Kullanılan Teknolojiler ve Araçlar
+Teknoloji	Açıklama
+HTML5 / CSS3	Sayfa yapısı ve temel stil vermek için kullanıldı
+JavaScript	Bazı etkileşimli arayüz işlevleri için kullanıldı
+ASP.NET Core MVC	Uygulama iskeleti ve sunucu tarafı işlemler için
+C#	Tüm sunucu taraflı kodlama bu dil ile yazıldı
+Entity Framework Core	ORM (Object Relational Mapping) olarak veritabanı işlemleri için
+SQLite	Hafif ve kurulumsuz veritabanı tercihi olarak
+ Uygulama Özellikleri
+
+Bu proje, görev yönetimini kolaylaştırmak amacıyla aşağıdaki temel özellikleri sunmaktadır:
+
+🔹 Görev Ekleme: Yeni bir görev başlığı girilerek listeye yeni bir görev eklenebilir.
+
+🔹 Görev Listeleme: Sisteme eklenen tüm görevler liste halinde görüntülenir.
+
+🔹 Görev Silme: İstenmeyen görevler tek tıklama ile silinebilir.
+
+🔹 Görev Tamamlama: Bir görevin tamamlandığı işaretlenerek durum bilgisi güncellenebilir.
+
+Her görev, tamamlanma durumuna göre farklı şekilde görselleştirilebilir (örn: üzeri çizili, renkli vb.).
+
